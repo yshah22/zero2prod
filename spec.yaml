@@ -7,7 +7,7 @@ services:
     github:
       branch: master
       deploy_on_push: true
-      repository: yashshah7197/zero2prod
+      repo: yashshah7197/zero2prod
     health_check:
       http_path: health_check
     http_port: 8000
